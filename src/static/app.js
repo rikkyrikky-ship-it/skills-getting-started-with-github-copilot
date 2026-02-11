@@ -12,10 +12,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Clear loading message
       activitiesList.innerHTML = "";
+
+      <<<<<<< accelerate-with-copilot
      
       // Reset activity select (keep placeholder)
       activitySelect.innerHTML = '<option value="">-- Select an activity --</option>';
-     
+
+      >>>>>>> main
       // Populate activities list
       Object.entries(activities).forEach(([name, details]) => {
         const activityCard = document.createElement("div");
